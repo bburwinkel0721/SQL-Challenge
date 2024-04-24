@@ -1,10 +1,3 @@
-SELECT * FROM salaries;
-SELECT * FROM dept_manager;
-SELECT * FROM dept_emp;
-SELECT * FROM employees;
-SELECT * FROM departments;
-SELECT * FROM titles;
-
 --List the employee number, last name, first name, sex, and salary of each employee
 SELECT employees.emp_no, last_name, first_name, sex, salary FROM employees
 INNER JOIN salaries ON
