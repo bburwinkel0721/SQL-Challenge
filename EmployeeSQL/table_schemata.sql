@@ -9,13 +9,13 @@ DROP TABLE IF EXISTS titles;
 -- this schema creates a table for the titles csv
 CREATE TABLE titles (
     title_id VARCHAR(5) PRIMARY KEY NOT NULL,
-    title VARCHAR(45) NOT NULL
+    title VARCHAR(20) NOT NULL
 );
 
 -- this schema creates a table for the department csv
 CREATE TABLE departments (
     dept_no VARCHAR(4) PRIMARY KEY NOT NULL,
-    dept_name VARCHAR(45) NOT NULL
+    dept_name VARCHAR(20) NOT NULL
 );
 
 -- this schema creates a table for the employees csv
